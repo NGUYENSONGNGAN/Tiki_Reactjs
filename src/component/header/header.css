@@ -1,0 +1,243 @@
+
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(26, 148, 255);
+  }
+  
+  .header__container {
+    position: relative;
+    padding-top: 4px;
+  }
+  
+  .logo__container {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .logo-tiki {
+    margin-top: 15px;
+  }
+  
+  .logo-img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  .freeship-img {
+    width: 83px;
+    height: 12px;
+    margin-top: 8px;
+  }
+  
+  .mobile__cart {
+    display: none;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    letter-spacing: 10px;
+  }
+  /* search header */
+  .search-box {
+    margin-left: 15%;
+    width: 100%;
+  }
+  .input-box {
+    width: 75%;
+  }
+  .box {
+    padding: 0 12px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  
+  .search__container {
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  .search-btn {
+    width: 15%;
+  }
+  
+  .search-btn .btn {
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background: rgb(13, 92, 182);
+    cursor: pointer;
+  }
+  
+  .search-icon {
+    padding: 0 5px;
+    font-size: 16px;
+  }
+  
+  .search-img {
+    display: none;
+  }
+  
+  .food-bar {
+    margin-top: 8px;
+  }
+  .food-bar a {
+    color: #fff;
+  }
+  
+  .food {
+    margin-right: 12px;
+    font-size: 11px;
+  }
+  
+  .login {
+    margin-left: 40px;
+    margin-top: 15px;
+    display: flex;
+  }
+  .user-icon {
+    margin: 5px 9px 0 0;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .users {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+  }
+  
+  .log-in {
+    font-size: 11px;
+    line-height: 12px;
+  }
+  
+  .user {
+    font-size: 13px;
+    line-height: 34px;
+  }
+  
+  .carts {
+    margin-top: 24px;
+    position: relative;
+    color: #fff;
+  }
+  
+  .cart-icon {
+    font-size: 24px;
+  }
+  .cart {
+    font-size: 11px;
+  }
+  
+  .carts__item {
+    position: absolute;
+    color: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(253, 216, 53);
+    left: 18px;
+    top: -8px;
+  }
+  
+  .seller {
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 4px 10px;
+    margin-left: 25%;
+    background-color: rgba(255, 255, 255, 0.25);
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
+  .sell {
+    color: #fff;
+    padding: 2px 0;
+  }
+  .store-icon {
+    font-size: 12px;
+  }
+  
+/* -------------------header mobile-------------------------- */
+
+.header_mobile_container
+{
+    width: 100%;
+    display:none;
+}
+.header_mobile_container .header_mobile_container_top
+{
+    display: flex;
+    font-size:14px;
+    color: #fff;
+    padding-top: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    justify-content:space-between;
+}
+.header_mobile_container .header_mobile_container_top .header_mobile_logo
+{
+    overflow: hidden;
+   
+}
+.img_freeShip_top
+{
+    width:80px;  
+}
+.icon_mobile_logo_top
+{
+    display: flex;
+}
+.img_logo_top
+{
+    width:40px;
+}
+.header_mobile_logo img
+{
+    width: 100%;
+    object-fit: cover;
+}
+.bell_home
+{
+    text-align: right;
+}
+.cart_home_top
+{
+    margin-left: 10px;
+}
+.header_mobile_container_bottom
+{
+    padding:10px  15px;
+    width:100%;
+    
+}
+.header_mobile_container_bottom input
+{
+    width: 100%;
+    padding: 4px 5px;
+    border-radius:4px
+}
+
+
+
+
+

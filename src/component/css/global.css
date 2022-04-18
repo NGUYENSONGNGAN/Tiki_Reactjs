@@ -1,0 +1,25 @@
+
+*
+{
+   
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+body
+{
+    background:#f5f5fa;
+}
+html{
+    font-family: roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5pm;
+    scroll-behavior: smooth;
+}
+

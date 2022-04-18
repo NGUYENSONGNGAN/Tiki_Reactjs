@@ -1,0 +1,51 @@
+
+
+.navigation {
+    background-color: white;
+    height: 44px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .content {
+    overflow: hidden;
+    position: relative;
+    padding: 0 8px;
+  }
+  .nav {
+    display: flex;
+    line-height: 44px;
+    transition: all 0.5s ease 0s;
+    width: 200%;
+  }
+  
+  .icon-arrow-left {
+    position: absolute;
+    background-color: #fff;
+    z-index: 9;
+    line-height: 46px;
+    left: 0;
+    display: none;
+    font-size: 17px;
+    padding:0 25px;
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right:40px;
+  }
+  
+  .icon-arrow-right {
+    position: absolute;
+    background-color: #fff;
+    z-index: 9;
+    line-height: 46px;
+    right: 0;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right:3px;
+    cursor: pointer;
+  }
+.product {
+    display: inline-block;
+    color: rgb(56, 56, 61);
+    font-size: 14px;
+    margin: 0px 13px;
+  }
