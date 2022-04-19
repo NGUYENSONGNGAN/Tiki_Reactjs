@@ -1,0 +1,20 @@
+.banner_after_featured
+{
+    margin: 10px 0;
+    
+}
+.banner_after_featured .grid
+{
+    overflow: hidden;
+}
+.banner_after_featured .banner_after_featured_item
+{
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+}
+.banner_after_featured .banner_after_featured_item image
+{
+    width: 100%;
+    object-fit: cover;
+}

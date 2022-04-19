@@ -1,0 +1,243 @@
+
+.suggest_today 
+{
+    position: relative;
+  
+}
+
+.container_suggest_today
+{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background:#f5f5fa;
+}
+.suggest_today .container_suggest_today .suggest_today_top
+{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color:rgb(36,36,36);
+    background-color:#fff;
+    margin-bottom: 4px;
+    padding: 10px 16px;
+    font-size: 20px;
+    line-height: 28px;
+    border-radius: 4px;
+}
+   
+
+
+.suggest_today .container_suggest_today .suggest_today_top span
+{
+    
+    margin-left: 8px;
+}
+.container_suggest_today .suggest_today_top .menu_suggest
+{
+    border-radius: 50%;
+    font-size: 24px;
+    border: 1px solid var(--light-color);
+    background-color: var(--light-color);
+    padding: 5px 10px;
+    opacity: .3;
+    display: none;
+}
+
+
+.menu_close {
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    font-size: 24px;
+    border: 1px solid var(--light-color);
+    background-color: var(--light-color);
+    padding: 5px 10px;
+    opacity: .3;
+    display: none;
+}
+
+.menu_close > i {
+    width: 40px;
+    height:40px;
+}
+
+
+.container_suggest_today .suggest_today_top .menu_suggest:hover
+{
+    opacity: .7;
+}
+.suggest_today .suggest_today_bottom .list_suggest_today
+{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+
+.suggest_today_bottom .list_suggest_today li.suggest_today_item
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px 8px;
+    background-color: #fff;
+    min-height: 60px;
+    width: 146px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.suggest_today_bottom .list_suggest_today li.suggest_today_item img
+{
+    width:48px;
+    height: 48px;
+    object-fit: cover;
+}
+.suggest_today_bottom .list_suggest_today li.suggest_today_item span
+{
+    display: block;
+    padding-top:6px;
+    font-size:13px;
+    font-weight: normal;
+    line-height:18px;
+
+}
+.suggest_today_item.active
+{
+    border: 1px solid rgb(13, 92, 182) ;
+    color:rgb(13, 92, 182)  ;
+}
+.container_suggest_today_body
+{
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    margin: 0 0 16px;
+    padding: 0 0 16px;
+}
+.container_suggest_today_body ul.list_container_suggest_today_body
+{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    flex-wrap: wrap;
+  
+}
+.container_suggest_today_body ul.list_container_suggest_today_body li.container_suggest_today_body_item
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    width:  calc(100%/6);
+    margin-bottom: 1rem;
+    padding: 12px;
+}
+li.container_suggest_today_body_item:hover
+{
+    opacity: .8;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+li.container_suggest_today_body_item img
+{
+    width:182px;
+    height: 182px;
+    object-fit: cover;
+}
+li.container_suggest_today_body_item span.title
+{
+    display: block;
+    font-size: 13px;
+    margin: 10px 0px 4px;
+    line-height: 20px;
+    word-break: break-word;
+    font-weight: initial;
+    color: #000;
+}
+li.container_suggest_today_body_item .vote_amount
+{
+    display: flex;
+    align-items: center;
+}
+li.container_suggest_today_body_item .vote_amount .stars i
+{
+    color: #fdd836;
+    height: 14;
+    width: 14;
+    size: 16;
+}
+li.container_suggest_today_body_item .vote_amount span
+{
+    padding-left: 4px;
+    color: rgb(120, 120, 120);
+    font-size: 11px;
+}
+
+li.container_suggest_today_body_item  .price
+{
+    margin: 4px 0 0;
+   display: flex;
+  
+   align-items: center;
+}
+li.container_suggest_today_body_item  .price span{
+
+    text-transform: lowercase;
+    color: red;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+li.container_suggest_today_body_item  .price span.percent_discount
+{
+    border: 1px solid rgb(255, 66, 78);
+    border-radius: 2px;
+    background-color: rgb(255, 240, 241);
+    font-weight: 500;
+    padding: 0px 2px;
+    line-height: 14px;
+    font-size: 12px;
+    margin-left: 6px;
+}
+.infor_suggest_today
+{
+    width: 100%;
+    text-align: left;
+}
+.view_more
+{
+    cursor: pointer;
+    display: inline-block;
+    width: 240px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid rgb(13, 92, 182);
+   
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    font-weight: 550;
+}
+.view_more a
+{
+    color: rgb(13, 92, 182);
+}
+.view_more:hover 
+{
+    background-color: rgb(13, 92, 182);
+    
+}
+.view_more:hover a
+{
+    color: #fff;
+}
